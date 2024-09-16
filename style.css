@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	background-color: #353535;
+	color:#fff;
+}
+
+.navbar {
+    background-image: url('./img/karte.jpg');
+    background-size: cover; /* Bild vollständig abdecken */
+    background-repeat: no-repeat; /* Bild nicht wiederholen */
+    background-position: center; /* Bild zentrieren */
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+	height:75vh;
+    background-color: #353535;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar li:hover {
+    background-color: #ddd;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.images-container {
+	margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.images-container img {
+    max-width: 500px;
+    display: none; /* Bilder anfangs nicht anzeigen */
+}
