@@ -7,7 +7,7 @@ body {
 }
 
 .navbar {
-    background-image: url('./img/karte.jpg');
+    background-image: url('https://media.discordapp.net/attachments/1188918212436435032/1285154130083577878/karte.jpg?ex=66e93c8d&is=66e7eb0d&hm=b46cbc0f207025a5ee2860213b9233da3f35a9da661235234700f3ed59697939&=&format=webp&width=1111&height=625');
     background-size: cover; /* Bild vollständig abdecken */
     background-repeat: no-repeat; /* Bild nicht wiederholen */
     background-position: center; /* Bild zentrieren */
